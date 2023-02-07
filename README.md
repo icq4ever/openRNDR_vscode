@@ -1,4 +1,4 @@
-# openRNDR_vscode
+# openrndr_vscode
 vscode tasks.json for [openRNDR](https://openrndr.org/)<br/>
 
 ## recommentation extension
