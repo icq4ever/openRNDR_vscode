@@ -1,6 +1,12 @@
 # openrndr_vscode
 
-vscode tasks.json for [openRNDR](https://openrndr.org/)<br/>
+vscode tasks.json, shel-script for [OPERNDR](https://openrndr.org/)<br/>
+
+## how to use
+
+- put shell script into cloned openrndr template location
+- open with vscode
+- open command palette and type "task: Run Task" -> OPENRNDR RUN
 
 ## build.gradle.kts
 
@@ -13,4 +19,3 @@ vscode tasks.json for [openRNDR](https://openrndr.org/)<br/>
 ## tested
 
 - linux, mac tested
-- so far, not working in sub-directory file

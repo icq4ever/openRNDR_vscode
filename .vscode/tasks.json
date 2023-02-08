@@ -6,14 +6,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "RUN",
+            "label": "OPENRNDR RUN",
             "type": "shell",
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind" : "build",
+                "isDefault" : true
             },
-            "command": "./gradlew run -Papplication=${fileBasenameNoExtension}",
-            "problemMatcher": []
+            "command" : "./openrndr-vscode-launcher.sh ${workspaceFolder} ${fileDirname} ${fileBasenameNoExtension} ${fileExtname} ${file}",
+            "presentation" : {
+                "echo" : false
+            }
+
         }
     ]
 }
