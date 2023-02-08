@@ -1,12 +1,16 @@
-# openrndr_vscode
+# openrndr-vscode
 
-vscode tasks.json, shel-script for [OPERNDR](https://openrndr.org/)<br/>
+vscode tasks.json, shell-script for [OPERNDR](https://openrndr.org/)<br/>
 
 ## how to use
 
-- put shell script into cloned openrndr template location
+- put shell script into cloned [openrndr-template](https://github.com/openrndr/openrndr-template) location
 - open with vscode
-- open command palette and type "task: Run Task" -> OPENRNDR RUN
+- open command palette and type `task: Run Task` -> `OPENRNDR RUN`
+
+## note
+
+- shell script will update sourcecode if it's location is not `/src/main/kotlin/` under template-repository. so if you move file location, remove first line 'package \*'
 
 ## build.gradle.kts
 
