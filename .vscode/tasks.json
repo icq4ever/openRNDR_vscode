@@ -12,7 +12,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": "./gradlew run -PtargetClass=${fileBasenameNoExtension}Kt",
+            "command": "./gradlew run -Papplication=${fileBasenameNoExtension}",
             "problemMatcher": []
         }
     ]
